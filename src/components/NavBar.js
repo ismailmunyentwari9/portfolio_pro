@@ -51,7 +51,7 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/ismail.mn.35"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/ismail_0258/"><img src={navIcon3} alt="" /></a>
               </div>
-              <a href = "https://docs.google.com/document/d/1rW5znfCbBcDdSGagguWUuNtx0kIo0B7-6rLhD8CxrXs/edit?usp=sharing">
+              <a href = "https://drive.google.com/file/d/1l5ZrAz4Xxe0pQ7s7Je650HuO4MsgSWSK/view?usp=sharing">
                 <button className="vvd"><span>Get My Resume</span></button>
               </a>
             </span>
