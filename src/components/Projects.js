@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import transaction from "../assets/img/transaction.png";
-import spaceTravel from "../assets/img/space travel.png";
+import bookStore from "../assets/img/bookStore.png"
 import mathMagician from "../assets/img/Math magician.png";
 import AfricanWomen from "../assets/img/african women.png";
 import FinalSpace from "../assets/img/final space.png";
@@ -18,36 +18,49 @@ export const Projects = () => {
       description: "Ruby on Rails & React.js",
       imgUrl: transaction,
       link : "https://transaction-truck.onrender.com/",
+      github: "https://github.com/ismailmunyentwari9/transact_track",
+      more: "TransactionTrack: Effortlessly record and track transactions for any item. Ideal for personal finances, business expenses, or tracking spending habits. Stay organized and informed with ease",
     },
     {
-      title: "Space Travel",
+      title: "Book Store",
       description: "React.js & API",
-      imgUrl: spaceTravel,
-      link : "https://space-travelers-hub-7yjv.onrender.com/",
+      imgUrl: bookStore,
+      link : "https://book-store-a99h.onrender.com/",
+      github: "https://github.com/ismailmunyentwari9/book-store",
+      more: "The Bookstore Project: Simplify inventory management with a user-friendly software. Easily add, edit, and remove books. Process orders and track sales data seamlessly.",
     },
     {
       title: "Math Magician",
       description: "React.js & API",
       imgUrl: mathMagician,
       link : "https://math-magicians-v6z8.onrender.com/",
+      github: "https://github.com/ismailmunyentwari9/Math-magicians",
+      more: "The Math Magician Project: Boost kids' math skills with interactive web-based learning. Solve fun math problems in a game-like environment.",
+      
     },
     {
       title: "RideEase",
       description: "Ruby on Rails & React.js",
       imgUrl: RideEase,
-      link : "https://rideease.onrender.com/"
+      link : "https://rideease.onrender.com/",
+      github: "https://github.com/shubhambhoyar077/rideease-backend",
+      more: "RideEase: Book rides hassle-free! Reserve cars for your desired dates and cities. Enjoy a seamless and reliable car booking experience."
     },
     {
       title: "Final Space Characters",
       description: "React.js & API",
       imgUrl: FinalSpace,
       link : "https://final-space.onrender.com/",
+      github: "https://github.com/ismailmunyentwari9/Final_Space_Character",
+      more:"Final Space Wiki: Explore characters, episodes, and locations interactively with our React app powered by the Final Space API."
     },
     {
       title: "African women in Technology",
-      description: "HTML & JavaScript",
+      description: "Html & JavaScript",
       imgUrl: AfricanWomen,
       link : "https://ismailmunyentwari9.github.io/My_capstone_project_001/index.html",
+      github: "https://github.com/ismailmunyentwari9/African_Women_inTech",
+      more:"African Women in Tech: Fostering Diversity Through Innovation. Introducing a groundbreaking initiative dedicated to promoting diversity within the tech industry."
     },
   ];
 

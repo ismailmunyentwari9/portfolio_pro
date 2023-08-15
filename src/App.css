@@ -7,10 +7,22 @@ a span {
   font-size: 30px;
   
 }
+.more-info{
+  color:#f1e6e6 !important;
+}
 a button span:hover {
   color:black;
   width: 100%;
   height: auto;
+}
+.project-links{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.stack{
+  color:white;
+  font-weight: bold;
 }
 
 /************ Custom Font ************/
