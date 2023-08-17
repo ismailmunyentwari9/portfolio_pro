@@ -17,14 +17,14 @@ export const ProjectCard = ({ title, description, imgUrl, link, github, more }) 
           <p><span class="stack">Stack: </span>{description}</p>
          
           <button className="btn btn-light" onClick={toggleMore}>
-            {showMore ? "Close" : "Read More..."}
+            {showMore ? "Close" : "Read Project Summary..."}
           </button>
           {showMore && <p class="more-info">{more}</p>}
           <div className="project-links">
-            <a className="btn btn-primary mt-1" href={link}>
+            <a className="btn btn-primary mt-1" href={link} target="_blank" rel="noreferrer">
               <span>See Live <i className="fas fa-external-link-alt"></i></span>
             </a>
-            <a className="btn btn-primary mt-1" href={github}>
+            <a className="btn btn-primary mt-1" href={github} target="_blank" rel="noreferrer">
               <span>See Source <i className="fab fa-github"></i></span>
             </a>
           </div>
