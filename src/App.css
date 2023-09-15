@@ -389,7 +389,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills .nav-item {
-  width: 13.33333%;
+  width: auto;
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
